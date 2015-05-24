@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <title>Annie Pennell</title>
+</head>
+
+<body>
+  <header>
+    <img src="http://i.imgur.com/cKzks2s.png" title="source: imgur.com" />
+    <h1>So you'd like to know more about Annie Pennell... Read on!</h1>
+  </header>
+  <article>
+    <h2>web dev, explorer, photographer.</h2>
+    <div id="about">
+      I was born in San Francisco and raised in Berkeley-ish. I went to college at the University of Redlands where I was in an individualized study program called the Johnston Center and designed a unique major in Photography, Writing, and the Human Experience. I took a variety of classes in art, nonfiction creative writing, and the humanities and contracted the courses to include extra projects so that I could learn what I wanted to. I also received narrative evaluations instead of grades (check out some excerpts below!). Real hippie stuff. I wanted to change the world and all that and hoped to be a social documentary photographer.
+      <br><br>
+      After graduating college (with departmental honors, because I go hard at everything I do), I moved to New Orleans to try something totally new. I spent a year working as an assistant manager at a clothing store, then I left when I'd had enough of sales. I briefly worked with a documentary photographer who had Alzheimer's and helped digitally archive her forty years worth of slides. I then got a job at a local photo shop and became an expert at photo retouching, fine art inkjet printing, and many other print shop tasks. After two years of this, in December 2014 I finally packed up everything I could fit into my car, stuck my dog in the front seat, and headed back to the Bay.
+      <br><br>
+      Finding myself again with no job and a world of options in front of me, I considered a hundred different ways to go but got fired up about web development.There are so many amazing companies out there and I wanted to find a way to fit in with one of them. I realized that being a web developer was the best way for me to make positive contributions, like I always wanted to. Attending General Assembly's Web Development Immersive provided me entry into that world and, working for 60 hours a week on coding, I learned to be a full stack web developer. I can't wait to see what's next!
+      <br>
+    </div>
+  </article>
+
+  <h3>What the higher-ups say</h3>
+
+  <div class="recs" id="Ginger">
+    <p>a strong work ethic<br>
+    <small>"Annie has a strong work ethic, enjoys sharing her knowledge with others and has been a valuable member of our staff. She has worked well on her own needing little supervision and has also worked well as part of a team. It is without reservation that I recommend Annie for a position with your company." ~Ginger Gauthe, Vice President, Lakeside Camera Photoworks</small></p>
+  </div>
+
+  <div class="recs" id="Penny1">
+    <p>just spectacular<br>
+    <small>"Annie's work for Book Arts was just spectacular... in the 25 years I have taught this course I have only rarely had a student as ambitious, dedicated, creative and accomplished as Annie... (she) is a perfectionist about her artwork, and as a result, her high standards drive her to excellence... all of the projects of the semester were executed with care and were the products of tough creative thinking." ~Penny McElroy, Professor, Book Arts 2010, University of Redlands</small></p>
+  </div>
+  
+  <div class="recs" id="Tommi"> 
+    <p>raised the expectations<br>
+    <small>"Annie is one of the most dedicated and hardworking students that I have ever had the pleasure of working with. ...Annie has a strong presence in class; she was always the first student in the room and the last student out. She was always happily willing to help other students out and go over things that they might not understand... it raised the expectations of the students and helped create an environment that was constructive and thoughtful." ~Tommi Cahill, Professor, Digital Photography 2011, University of Redlands</small></p>
+  </div>
+  
+  <div class="recs" id="Penny2">
+    <p>dedicated & ambitious<br>
+    <small>Annie was one of the most dedicated and ambitious artists in the group. She continually pushed herself to produce original, high quality photographs... as well as designed cogent work in her self-promotional materials." ~Penny McElroy, Professor, Advanced Studio Workshop 2010, University of Redlands</small></p>
+  </div>
+
+
+  <div class="recs" id="Alisa">
+    <p>productive, careful & thorough<br>
+    <small>"As a member of the workshop, Annie was incredibly productive. She's a careful, thorough and honest reader, and her classmates quickly learned to wait for her leadership in discussion... her comments are always fair, and her assesments are based on examples and objective judgement." ~Alisa Slaughter, Professor, Nonfiction Workshop I 2009, University of Redlands</small></p>
+  </div>
+  
+  <div class="contact">  
+    <h4>
+      Contact me!<br><br>
+      anniecpennell@gmail.com
+    </h4>
+  </div>
+
+  <script>
+    $('div').on('click', function() { $(this).toggleClass('show-description'); });
+    </script>
+</body>
